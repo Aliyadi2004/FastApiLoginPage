@@ -1,0 +1,162 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-image: linear-gradient(to right, rgb(0, 6, 116), rgb(192, 88, 19));
+}
+
+.login-logo h1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-weight: bold;
+}
+.Creat-account-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Creat-account-link p {
+  font-size: x-small;
+}
+
+.Creating-account:active {
+  opacity: 0.5;
+}
+
+.login input {
+  border: solid;
+  border-color: gray;
+  border-width: 1px;
+  border-radius: 7px;
+}
+.email-input {
+  position: relative;
+}
+.input-container {
+  margin-top: -5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+.img-input {
+  position: absolute;
+  margin-top: 5px;
+  margin-right: 5px;
+}
+.check-box {
+  margin-top: 20px;
+  margin-left: 12px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-items: center;
+}
+.check-box span {
+  font-size: small;
+  margin-left: 5px;
+}
+.forget-password {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.forget-password a {
+  text-decoration: underline;
+  color: rgb(255, 128, 0);
+  font-size: smaller;
+  margin-top: 20px;
+}
+
+.forget-password a:active {
+  opacity: 0.7;
+}
+
+.login-button {
+  align-items: center;
+  border: none;
+  border-radius: 5px;
+  width: 90%;
+  height: 40px;
+  color: white;
+  background-color: rgb(255, 128, 0);
+  transition: 0.05s;
+}
+.login-button:active {
+  opacity: 0.7;
+}
+.login-button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Email-label {
+  margin-top: 10px;
+  margin-bottom: 7px;
+  font-size: 15px;
+  margin-left: 12px;
+  font-weight: bold;
+}
+.password-label {
+  margin-top: 0px;
+  margin-bottom: 7px;
+  font-size: 15px;
+  margin-left: 12px;
+  font-weight: bold;
+}
+img .info {
+  color: gray;
+  font-size: small;
+}
+
+.flex-id {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  height: 556px;
+  align-items: center;
+  border: solid;
+  border-color: gray;
+  border-width: 1px;
+}
+.info {
+  width: 270px;
+  margin-top: 20px;
+  text-align: center;
+  color: gray;
+  font-size: small;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo-img {
+  display: flex;
+  height: 556px;
+  width: 618px;
+}
+.login-flexbox {
+  width: 320px;
+}
+
+.Support-service {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Support-service {
+  font-size: small;
+  color: rgb(255, 128, 0);
+}
+.servic-privacy {
+  color: rgb(255, 128, 0);
+  text-decoration: underline;
+}
+.servic-privacy:active {
+  opacity: 0.5;
+}
